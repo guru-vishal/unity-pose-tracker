@@ -8,7 +8,7 @@ The system streams pose data from a Python server to Unity via WebSockets, mappi
 ## 📦 Dependencies
 
 ### Python (Server)
-- Python 3.9+  
+- Python 3.9 - 3.11
 - MediaPipe – Pose detection  
 - OpenCV – Video capture and processing  
 - `websockets` – Real-time data streaming to Unity  
@@ -25,14 +25,12 @@ The system streams pose data from a Python server to Unity via WebSockets, mappi
 
 ### 1. Clone the Repository or Download the zip file
 
-    ```bash
     git clone https://github.com/guru-vishal/unity-pose-tracker.git
 
   • Or download the zip file and extract it
 
 ### 2. Python Server Setup
 
-    ```bash
     cd "Python (Server)"
     pip install -r requirements.txt
     python pose_server.py
